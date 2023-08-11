@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  registration(email: String!, password: String!): UserModal!
+}
+
+type Query {
+  getUser: [UserModal!]!
+}
+
+type UserModal {
+  email: String!
+  password: String!
+}
